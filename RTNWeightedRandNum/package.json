@@ -1,0 +1,42 @@
+{
+    "name": "rtn-weightedrandnum",
+    "version": "0.0.1",
+    "description": "Generate weighted random number with Turbo Native Modules",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+      "js",
+      "android",
+      "ios",
+      "RTNWeightedRandNum.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+    ],
+    "keywords": ["react-native", "ios", "android"],
+    "repository": "https://github.com/<your_github_handle>/RTNWeightedRandNum",
+    "author": "<Your Name> <your_email@your_provider.com> (https://github.com/<your_github_handle>)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/<your_github_handle>/RTNWeightedRandNum/issues"
+    },
+    "homepage": "https://github.com/<your_github_handle>/RTNWeightedRandNum#readme",
+    "publishConfig": {
+        "registry": "http://localhost:4873/"
+      },
+    "devDependencies": {},
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "codegenConfig": {
+      "name": "RTNWeightedRandNumSpec",
+      "type": "modules",
+      "jsSrcsDir": "js",
+      "android": {
+        "javaPackageName": "com.rtnweightedrandnum"
+      }
+    }
+  }
