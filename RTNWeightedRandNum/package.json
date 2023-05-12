@@ -1,6 +1,6 @@
 {
     "name": "rtn-weightedrandnum",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Generate weighted random number with Turbo Native Modules",
     "react-native": "js/index",
     "source": "js/index",
